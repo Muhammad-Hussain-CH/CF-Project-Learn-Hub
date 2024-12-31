@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub</title>
+    <link rel="stylesheet" href="sub.css">
+    <!-- for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo border">
+                </div>
+            </div>
+            <div class="nav-adddress border">
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="secondpara">Pakistan</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option value="">All</option>
+                </select>
+                <input placeholder="Search Learn Hub" class="input">
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+                <div class="searchicon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <li class="border">
+                <a href="index.html">Home</a>
+                <ul>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </li>
+            <a href="sub.html">Subjects</a>
+            <a href="index.html#contact" class="contactbtn">Contact</a>
+        </div>
+    </header>
+    
+    
+    <script>
+        // Detect scroll event
+        window.onscroll = function() {
+            var header = document.querySelector("header");
+            if (window.scrollY > 50) {
+                header.style.backgroundColor = "rgba(255, 255, 255, 1)"; // Change to black with transparency when scrolling
+            } else {
+                header.style.backgroundColor = "transparent"; // Keep it transparent at the top
+            }
+        };
+    </script>
+    <div class="mainimage" >
+        <img src="Mask-Group-65.png" alt="">
+    </div>
+    <div class="headline-container" id="about" >
+        <div class="headline" >
+            <p>Empowering Minds | Shaping Futures | Learn With Experts</p>
+            <p>Empowering Minds | Shaping Futures | Learn With Experts</p>
+        </div>
+    </div >
+
+
+
+    <!-- subject sessionn -->
+    <div class="main-container">
+        <div class="heading-container">
+            <h1>SUBJECTS</h1>
+        </div>
+        <div class="subjects-container">
+            <div class="subject-card">
+                <a href="Subjects/bio.html"><img  src="coverimages/biologypic.jpg" alt="Biology"></a>
+                <h3>Biology</h3>
+            </div>
+            <div class="subject-card">
+                <a href="Subjects/calculus.html"> <img src="coverimages/calculuspic.jpg" alt="Calculus"></a>
+               <h3>Calculus</h3>
+            </div>
+            <div class="subject-card">
+                <a href="Subjects/ai.html"><img src="coverimages/artificalinteligencepic.jpg" alt="Artificial Intelligence"></a>
+                <h3>Artificial Intelligence</h3>
+            </div>
+            <div class="subject-card">
+                <a href="Subjects/science.html"><img src="coverimages/sciencepic.jpg" alt="Science"></a>
+                <h3>Science</h3>
+            </div>
+            <div class="subject-card">
+                <a href="Subjects/computerscience.html"><img src="coverimages/computersciencepic.jpg" alt="Computer Science"></a>
+                <h3>Computer Science</h3>
+            </div>
+            <div class="subject-card">
+                <a href="Subjects/english.html"> <img src="coverimages/englishpic.jpg" alt="English"></a>
+               <h3>English</h3>
+            </div>
+        </div>
+    </div>
+
+
+<!-- footer -->
+
+    <footer style="background-color: #1d1d1d; color: white; padding: 40px 0;">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 30px; max-width: 1200px; margin: auto; padding: 0 20px;" id="contact">
+          <!-- Logo and Description -->
+          <div style="flex: 1; min-width: 250px;">
+            <img src="LEARN HIB LOGO.png" alt="Learn Hub Tutors Logo" style="max-width: 200px;">
+            <p style="margin-top: 20px; line-height: 1.8;color: gray;">
+              An established group of tutors who assist students overcome various challenges with professionalism. <br><br>
+              The goal is to ensure learners achieve their academic goals with fun.
+            </p>
+          </div>
+      
+          <!-- Contact Info -->
+          <div style="flex: 1; min-width: 250px;">
+            <h3 style="margin-bottom: 15px; font-size: 18px;">Contact Us</h3>
+            <p class="contact-item">
+                <i class="fa fa-envelope" style="margin-right: 8px;"></i>
+                <a href="mailto:infor@learnhubtutors.com">infor@learnhubtutors.com</a>
+              </p>
+              <p class="contact-item">
+                <i class="fa fa-phone" style="margin-right: 8px;"></i>
+                <a href="tel:+254783350793">+254783350793</a>
+              </p>
+          </div>
+      
+          <!-- Links -->
+          <div style="flex: 1; min-width: 150px;">
+            <h3 style="margin-bottom: 15px; font-size: 18px;">Links</h3>
+            <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                <li><a href="index.html#about">About Us</a></li>
+                <li><a href="sub.html">Our Courses</a></li>
+              </ul>
+          </div>
+      
+          <!-- Social Media -->
+          <div style="display: flex; gap: 15px;">
+            <a href="#" style="color: white; text-decoration: none; transition: color 0.3s;">
+              <i class="fa-brands fa-facebook-f" style="font-size: 24px;"></i>
+            </a>
+            <a href="#" style="color: white; text-decoration: none; transition: color 0.3s;">
+              <i class="fa-brands fa-twitter" style="font-size: 24px;"></i>
+            </a>
+            <a href="#" style="color: white; text-decoration: none; transition: color 0.3s;">
+              <i class="fa-brands fa-instagram" style="font-size: 24px;"></i>
+            </a>
+            <a href="#" style="color: white; text-decoration: none; transition: color 0.3s;">
+              <i class="fa-brands fa-linkedin-in" style="font-size: 24px;"></i>
+            </a>
+          </div>
+          
+        </div>
+      </footer>
+
+
+
+
+                                           
+</body>
+</html>

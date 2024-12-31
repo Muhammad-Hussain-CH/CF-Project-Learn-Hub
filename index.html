@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>LearnHub</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+ 
+
+</head>
+
+<body>
+    
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo border">
+                </div>
+            </div>
+            <div class="nav-adddress border">
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="secondpara">Pakistan</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option value="">All</option>
+                </select>
+                <input placeholder="Search Learn Hub" class="input">
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+                <div class="searchicon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <li class="border">
+                <a href="index.html">Home</a>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </li>
+            <a href="sub.html">Subjects</a>
+            <a href="#contact" class="contactbtn">Contact</a>
+            
+        </div>
+    </header>
+    
+    
+    <script>
+        // Detect scroll event
+        window.onscroll = function() {
+            var header = document.querySelector("header");
+            if (window.scrollY > 50) {
+                header.style.backgroundColor = "rgba(255, 255, 255, 1)"; // Change to black with transparency when scrolling
+            } else {
+                header.style.backgroundColor = "transparent"; // Keep it transparent at the top
+            }
+        };
+    </script>
+    <div class="mainimage" >
+        <img src="Mask-Group-65.png" alt="">
+    </div>
+
+    <div class="headline-container" id="about" >
+        <div class="headline" >
+            <p>Empowering Minds | Shaping Futures | Learn With Experts</p>
+            <p>Empowering Minds | Shaping Futures | Learn With Experts</p>
+        </div>
+    </div >
+    
+
+
+    <div class="containerA"  >
+       <h1>ABOUT US</h1>
+       <div class="get-started-container">
+        <a href="sub.html" class="get-started-btn">GET STARTED</a>
+    </div>
+    </div>
+
+    <div class="containerb">
+        <div class="containerb1">
+            <h2 class="heading2">Inspired By Excellence, Professionalism & Innovation</h2>
+        </div>
+        <div class="containerb2">
+            <p class="peragraph1">LearnHub Tutors is a tutoring platform that offers you a wide range of <br>professional teachers to help you overcome your academic challenges in a <br>learner-friendly environment.</p>
+            <p class="peragraph1" id="services">Our tutors are well trained and always listen to understand your needs and tailor <br>lessons to suit your needs.</p>
+        </div>
+    </div>
+
+    <div class="founder-section" >
+        <div class="founder-image">
+            <img src="LEARN HIB LOGO.png" alt="LearnHub Logo">
+        </div>
+        <div class="founder-text">
+            <h2>Welcome Note From The Team</h2>
+            <p>
+                Welcome to LearnHub Tutors! We are a dedicated team of experts,bringing diverse teaching methodologies to the table. Our mission is to create customized tutoring lessons that cater to the unique needs of every learner. Let us help you achieve your academic goals with personalized and engaging support!
+            </p>
+            <p>
+                Thank you for taking the time to explore our platform. We hope you settle on 
+                our tutors and book a lesson with us. We give the best online tutoring 
+                experiences that yield desirable results.
+            </p>
+            <p>
+                <strong>MUHAMMAD HUSSAIN and HARIs</strong><br>
+                Grace M
+            </p>
+        </div>
+    </div>
+
+    <!-- advantages -->
+    <div class="advantages-section">
+        <h1>The Learn Hub Advantage</h1>
+        <div class="advantages-container">
+          <div class="advantage">
+            <img src="coverimages/doubtClearence.jpg" alt="Doubt clearance">
+            <h3>Doubt Clearance</h3>
+          </div>
+          <div class="advantage">
+            <img src="coverimages/Freeofcost.jpg" alt="Free of cost">
+            <h3>Free of Cost</h3>
+          </div>
+          <div class="advantage">
+            <img src="coverimages/Conceptualvideos.jpg" alt="Conceptual videos">
+            <h3>Conceptual Videos</h3>
+          </div>
+          <div class="advantage">
+            <img src="coverimages/Practicetests.jpg" alt="Practice tests">
+            <h3>Practice Tests</h3>
+          </div>
+        </div>
+      </div>
+<!-- video -->
+    <div class="video-section">
+        <h2>LEARN WITH US</h2>
+        <div class="video-container">
+            <iframe 
+                src="https://www.youtube.com/embed/M4yMYF80CFI" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+    
+    
+    
+   
+
+
+    
+
+    <!-- footer -->
+
+    <footer style="background-color: #1d1d1d; color: white; padding: 40px 0;">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 30px; max-width: 1200px; margin: auto; padding: 0 20px;" id="contact">
+          <!-- Logo and Description -->
+          <div style="flex: 1; min-width: 250px;">
+            <img src="LEARN HIB LOGO.png" alt="Learn Hub Tutors Logo" style="max-width: 200px;">
+            <p style="margin-top: 20px; line-height: 1.8;color: gray;">
+              An established group of tutors who assist students overcome various challenges with professionalism. <br><br>
+              The goal is to ensure learners achieve their academic goals with fun.
+            </p>
+          </div>
+      
+          <!-- Contact Info -->
+          <div style="flex: 1; min-width: 250px;">
+            <h3 style="margin-bottom: 15px; font-size: 18px;">Contact Us</h3>
+            <p class="contact-item">
+                <i class="fa fa-envelope" style="margin-right: 8px;"></i>
+                <a href="mailto:infor@learnhubtutors.com">infor@learnhubtutors.com</a>
+              </p>
+              <p class="contact-item">
+                <i class="fa fa-phone" style="margin-right: 8px;"></i>
+                <a href="tel:+254783350793">+254783350793</a>
+              </p>
+          </div>
+      
+          <!-- Links -->
+          <div style="flex: 1; min-width: 150px;">
+            <h3 style="margin-bottom: 15px; font-size: 18px;">Links</h3>
+            <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="sub.html">Our Courses</a></li>
+              </ul>
+          </div>
+      
+          <!-- Social Media -->
+          <div style="display: flex; gap: 15px;">
+            <a href="#" style="color: white; text-decoration: none; transition: color 0.3s;">
+              <i class="fa-brands fa-facebook-f" style="font-size: 24px;"></i>
+            </a>
+            <a href="#" style="color: white; text-decoration: none; transition: color 0.3s;">
+              <i class="fa-brands fa-twitter" style="font-size: 24px;"></i>
+            </a>
+            <a href="#" style="color: white; text-decoration: none; transition: color 0.3s;">
+              <i class="fa-brands fa-instagram" style="font-size: 24px;"></i>
+            </a>
+            <a href="#" style="color: white; text-decoration: none; transition: color 0.3s;">
+              <i class="fa-brands fa-linkedin-in" style="font-size: 24px;"></i>
+            </a>
+          </div>
+          
+        </div>
+      </footer>
+      
+      
+
+   
+</body>
+
+</html>

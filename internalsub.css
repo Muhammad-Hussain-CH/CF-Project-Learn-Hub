@@ -1,0 +1,342 @@
+/* General Reset */
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body Background */
+body {
+    background-image: linear-gradient(to right, hsl(240, 15%, 90%), hsl(240, 15%, 60%));
+    background-attachment: fixed; /* Keeps the gradient fixed during scrolling */
+    background-size: cover; /* Ensures it covers the entire screen */
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Removes any default padding */
+}
+
+
+/* Navbar Styling */
+.navbar {
+    height: 80px;
+    background-color: transparent; /* Optional: Make navbar transparent */
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0; /* Positions the navbar at the top of the screen */
+    left: 0; /* Aligns it with the left side */
+    width: 100%; /* Makes the navbar full width */
+    padding: 10px 20px;
+    z-index: 1000; /* Ensures the navbar stays on top of other content */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #0f1111;
+}
+
+/* Navbar Links */
+.navbar a {
+    text-decoration: none;
+    color: #0f1111;
+    font-size: 1.25rem;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect on Links */
+.navbar a:hover {
+    background-color: rgb(16, 90, 16); /* Highlight the link with white background */
+    color: #fcfcfc; /* Purple text color */
+    padding: 5px 10px; /* Add slight padding for effect */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Navbar Logo */
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    height: 50px;
+    background-image: url(../LEARN\ HIB\ LOGO.png);
+    background-size: cover;
+    width: 100%;
+    padding-right: 23%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+/* Address Section */
+.add-icon {
+    display: flex;
+}
+
+.firstpara {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.secondpara {
+    font-size: 1rem;
+    margin-left: 6px;
+}
+
+/* Search Section */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 750px;
+    background-color: pink;
+    height: 45px;
+    border-radius: 3px;
+    border: 2px solid black; /* Black border for the search bar */
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.searchicon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #febd68;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #0f1111;
+}
+
+/* Dropdown Menu for Quiz */
+li.border {
+    position: relative;
+    cursor: pointer;
+}
+
+li.border:hover ul {
+    display: block;
+}
+
+li.border ul {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: #f7f1f6; /* White background */
+    border: 1px solid black; /* Black border */
+    list-style: none;
+    padding: 10px;
+    max-height: 150px; /* Limit height for scrollbar */
+    overflow-y: auto; /* Enable vertical scrollbar */
+    z-index: 10; /* Ensure it appears above other content */
+}
+
+li.border ul li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li.border ul li a {
+    color: black; /* Default color */
+    text-decoration: none;
+    display: block;
+}
+
+li.border ul li:hover {
+    background-color: #4A148C; /* Highlight effect */
+    color: white;
+}
+/* Dropdown Menu Styling for Home */
+li.border {
+    position: relative;
+    cursor: pointer;
+}
+
+li.border:hover ul {
+    display: block;
+}
+
+li.border ul {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: #f7f1f6; /* White background */
+    border: 1px solid black; /* Black border */
+    list-style: none;
+    padding: 10px;
+    max-height: 150px; /* Limit height for scrollbar */
+    overflow-y: auto; /* Enable vertical scrollbar */
+    z-index: 10; /* Ensure it appears above other content */
+    width: 150px; /* Fix width for consistency */
+}
+
+li.border ul li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li.border ul li:last-child {
+    border-bottom: none;
+}
+
+li.border ul li a {
+    color: black; /* Default color */
+    text-decoration: none;
+    display: block;
+}
+
+li.border ul li:hover {
+    background-color: #f7f0f0; /* Highlight effect */
+    color: white;
+}
+
+/* Prevent Shaking Issue */
+li.border:hover > a {
+    background-color: rgb(16, 90, 16); /* Match hover effect */
+    color: #fcfcfc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* General List and Header Styles */
+li {
+    list-style-type: none;
+}
+
+header {
+    font-weight: 100;
+}
+header {
+    position: fixed; /* Fix the header at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    padding: 3.2%;
+    z-index: 1000; /* Keeps the navbar on top */
+    background-color: transparent; /* Initially transparent */
+    transition: background-color 0.3s ease; /* Smooth transition for background change */
+}
+
+
+
+
+
+
+/* footer */
+footer a:hover {
+    color: #f0a500; /* Hover color */
+  }
+  
+  footer i {
+    font-size: 24px; /* Icon size */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  footer a {
+    color: gray;
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  footer i:hover {
+    transform: scale(1.2); /* Enlarge icon slightly on hover */
+  }
+  
+  .container ul li {
+    margin-bottom: -1%; /* Spacing between links */
+  }
+
+  
+.contact-item{
+margin-top: 8%;
+}
+
+  ul a {
+    text-decoration: none;
+    color: gray;
+    transition: color 0.3s;
+    
+  }
+
+  ul a:hover {
+    color: #f0a500; /* Orange hover effect */
+  }
+  button:focus {
+    outline: 3px solid #febd68;
+}
+
+
+
+/* boxes */
+
+.container {
+    padding: 100px 20px;
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  .box {
+    background-color:  #e3f2fd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+  }
+
+  .box a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
+
+  /* button */
+  .button-container {
+    text-align: center;
+    margin-top: -2px;
+    margin-bottom: 30px;
+  }
+
+  .quiz-button {
+    background-color: orange;
+    color: rgb(255, 242, 242);
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .quiz-button:hover {
+    background-color: darkgreen;
+  }

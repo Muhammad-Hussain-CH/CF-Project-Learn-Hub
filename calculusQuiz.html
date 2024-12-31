@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculus Quiz</title>
+    <link rel="stylesheet" href="subQuizes.css"> <!-- Link your CSS file -->
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="../LEARN HIB LOGO.png" alt="Quiz Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../sub.html">Subjects</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="../Subjects/calculus.html">Go Back</a>
+        </div>
+    </header>
+    
+   <!-- Quiz Container -->
+    <div class="quiz-container">
+        <h1>Calculus Quiz</h1>
+        <form id="quiz-form">
+            <!-- Question 1 -->
+            <div class="question" id="q1">
+                <p>1. What is the derivative of sin(x)?</p>
+                <label><input type="radio" name="q1" value="a"> cos(x)</label><br>
+                <label><input type="radio" name="q1" value="b"> -cos(x)</label><br>
+                <label><input type="radio" name="q1" value="c"> sin(x)</label><br>
+                <label><input type="radio" name="q1" value="d"> -sin(x)</label>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question" id="q2">
+                <p>2. What is the integral of 1/x?</p>
+                <label><input type="radio" name="q2" value="a"> e^x</label><br>
+                <label><input type="radio" name="q2" value="b"> ln|x| + C</label><br>
+                <label><input type="radio" name="q2" value="c"> 1/(x^2)</label><br>
+                <label><input type="radio" name="q2" value="d"> x^2</label>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question" id="q3">
+                <p>3. What is the derivative of x^2?</p>
+                <label><input type="radio" name="q3" value="a"> 2x</label><br>
+                <label><input type="radio" name="q3" value="b"> x</label><br>
+                <label><input type="radio" name="q3" value="c"> x^2</label><br>
+                <label><input type="radio" name="q3" value="d"> None of the above</label>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question" id="q4">
+                <p>4. What is the value of the derivative of a constant?</p>
+                <label><input type="radio" name="q4" value="a"> The constant itself</label><br>
+                <label><input type="radio" name="q4" value="b"> 0</label><br>
+                <label><input type="radio" name="q4" value="c"> 1</label><br>
+                <label><input type="radio" name="q4" value="d"> Undefined</label>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question" id="q5">
+                <p>5. What is the derivative of ln(x)?</p>
+                <label><input type="radio" name="q5" value="a"> x^2</label><br>
+                <label><input type="radio" name="q5" value="b"> 1/x</label><br>
+                <label><input type="radio" name="q5" value="c"> ln(x)</label><br>
+                <label><input type="radio" name="q5" value="d"> None of the above</label>
+            </div>
+        </form>
+        <button id="submit-btn">Submit Quiz</button>
+        <p id="score-display"></p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 LearnHub. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="subQuizes.js"></script> <!-- Link your JS file -->
+</body>
+</html>

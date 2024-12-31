@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Quiz</title>
+    <link rel="stylesheet" href="subQuizes.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="../LEARN HIB LOGO.png" alt="Quiz Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../sub.html">Subjects</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="../Subjects/english.html">Go Back</a>
+        </div>
+    </header>
+    <div class="quiz-container">
+        <h1>English Quiz</h1>
+        <form id="quiz-form">
+            <!-- Question 1 -->
+            <div class="question" id="q1">
+                <p>1. Which of the following is correct in subject-verb agreement?</p>
+                <label><input type="radio" name="q1" value="a"> She go to school.</label><br>
+                <label><input type="radio" name="q1" value="b"> They goes to school.</label><br>
+                <label><input type="radio" name="q1" value="c"> She goes to school.</label><br>
+                <label><input type="radio" name="q1" value="d"> He going to school.</label>
+            </div>
+            <!-- Question 2 -->
+            <div class="question" id="q2">
+                <p>2. Which tense is used in the sentence: "I have eaten breakfast already"?</p>
+                <label><input type="radio" name="q2" value="a"> Present Perfect</label><br>
+                <label><input type="radio" name="q2" value="b"> Past Perfect</label><br>
+                <label><input type="radio" name="q2" value="c"> Future Perfect</label><br>
+                <label><input type="radio" name="q2" value="d"> Present Continuous</label>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question" id="q3">
+                <p>3. Identify the correct preposition in the sentence: "The book is ___ the table."</p>
+                <label><input type="radio" name="q3" value="a"> in</label><br>
+                <label><input type="radio" name="q3" value="b"> at</label><br>
+                <label><input type="radio" name="q3" value="c"> of</label><br>
+                <label><input type="radio" name="q3" value="d"> on</label>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question" id="q4">
+                <p>4. What is the correct form of the pronoun in this sentence: "This book is ___."</p>
+                <label><input type="radio" name="q4" value="a"> me</label><br>
+                <label><input type="radio" name="q4" value="b"> mine</label><br>
+                <label><input type="radio" name="q4" value="c"> I</label><br>
+                <label><input type="radio" name="q4" value="d"> myself</label>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question" id="q5">
+                <p>5. Which article correctly completes this sentence: "___ apple a day keeps the doctor away."</p>
+                <label><input type="radio" name="q5" value="a"> An</label><br>
+                <label><input type="radio" name="q5" value="b"> A</label><br>
+                <label><input type="radio" name="q5" value="c"> The</label><br>
+                <label><input type="radio" name="q5" value="d"> No article</label>
+            </div>
+        </form>
+        <button id="submit-btn">Submit Quiz</button>
+        <p id="score-display"></p>
+    </div>
+    <footer>
+        <p>© 2024 LearnHub. All rights reserved.</p>
+    </footer>
+    <script src="subQuizes.js"></script>
+</body>
+</html>

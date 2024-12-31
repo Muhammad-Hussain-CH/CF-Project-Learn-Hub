@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artificial Intelligence Quiz</title>
+    <link rel="stylesheet" href="subQuizes.css"> <!-- Reuse existing CSS -->
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="../LEARN HIB LOGO.png" alt="Quiz Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../sub.html">Subjects</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="../Subjects/ai.html">Go Back</a>
+        </div>
+    </header>
+    
+    <div class="quiz-container">
+        <h1>Artificial Intelligence Quiz</h1>
+        <form id="quiz-form">
+            <!-- Question 1 -->
+            <div class="question" id="q1">
+                <p>1. What is Machine Learning?</p>
+                <label><input type="radio" name="q1" value="a"> A hardware component</label><br>
+                <label><input type="radio" name="q1" value="b"> A subset of AI</label><br>
+                <label><input type="radio" name="q1" value="c"> A programming language</label><br>
+                <label><input type="radio" name="q1" value="d"> None of the above</label>
+            </div>
+            <!-- Question 2 -->
+            <div class="question" id="q2">
+                <p>2. Which of the following is a Neural Network?</p>
+                <label><input type="radio" name="q2" value="a"> Regression Tree</label><br>
+                <label><input type="radio" name="q2" value="b"> Bayesian Network</label><br>
+                <label><input type="radio" name="q2" value="c"> SVM</label><br>
+                <label><input type="radio" name="q2" value="d"> Convolutional Neural Network</label>
+            </div>
+            <!-- Question 3 -->
+            <div class="question" id="q3">
+                <p>3. What are Search Algorithms used for in AI?</p>
+                <label><input type="radio" name="q3" value="a"> To find solutions to problems</label><br>
+                <label><input type="radio" name="q3" value="b"> To optimize data storage</label><br>
+                <label><input type="radio" name="q3" value="c"> To process user input</label><br>
+                <label><input type="radio" name="q3" value="d"> To analyze databases</label>
+            </div>
+            <!-- Question 4 -->
+            <div class="question" id="q4">
+                <p>4. What is Natural Language Processing?</p>
+                <label><input type="radio" name="q4" value="a"> Image processing</label><br>
+                <label><input type="radio" name="q4" value="b"> Speech recognition</label><br>
+                <label><input type="radio" name="q4" value="c"> Interaction between computers and humans</label><br>
+                <label><input type="radio" name="q4" value="d"> All of the above</label>
+            </div>
+            <!-- Question 5 -->
+            <div class="question" id="q5">
+                <p>5. What is Reinforcement Learning?</p>
+                <label><input type="radio" name="q5" value="a"> A type of supervised learning</label><br>
+                <label><input type="radio" name="q5" value="b"> A type of unsupervised learning</label><br>
+                <label><input type="radio" name="q5" value="c"> Learning from labeled data</label><br>
+                <label><input type="radio" name="q5" value="d"> Learning based on rewards and punishments</label>
+            </div>
+        </form>
+        <button id="submit-btn">Submit Quiz</button>
+        <p id="score-display"></p>
+    </div>
+    <footer>
+        <p>© 2024 LearnHub. All rights reserved.</p>
+    </footer>
+    <script src="subQuizes.js"></script> 
+</body>
+</html>

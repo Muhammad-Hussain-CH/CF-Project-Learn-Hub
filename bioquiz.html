@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biology Quiz</title>
+    <link rel="stylesheet" href="subQuizes.css"> <!-- Link your CSS file -->
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="../LEARN HIB LOGO.png" alt="Quiz Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../sub.html">Subjects</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="../Subjects/bio.html">Go Back</a>
+        </div>
+    </header>
+    
+   <!-- Quiz Container -->
+    <div class="quiz-container">
+        <h1>Biology Quiz</h1>
+        <form id="quiz-form">
+            <!-- Question 1 -->
+            <div class="question" id="q1">
+                <p>1. What is the powerhouse of the cell?</p>
+                <label><input type="radio" name="q1" value="a"> Nucleus</label><br>
+                <label><input type="radio" name="q1" value="b"> Mitochondria</label><br>
+                <label><input type="radio" name="q1" value="c"> Ribosomes</label><br>
+                <label><input type="radio" name="q1" value="d"> Golgi Apparatus</label>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question" id="q2">
+                <p>2. What is the process of converting sunlight into food by plants called?</p>
+                <label><input type="radio" name="q2" value="a"> Respiration</label><br>
+                <label><input type="radio" name="q2" value="b"> Photosynthesis</label><br>
+                <label><input type="radio" name="q2" value="c"> Transpiration</label><br>
+                <label><input type="radio" name="q2" value="d"> Germination</label>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question" id="q3">
+                <p>3. Which organ is responsible for pumping blood in the human body?</p>
+                <label><input type="radio" name="q3" value="a"> Brain</label><br>
+                <label><input type="radio" name="q3" value="b"> Heart</label><br>
+                <label><input type="radio" name="q3" value="c"> Liver</label><br>
+                <label><input type="radio" name="q3" value="d"> Lungs</label>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question" id="q4">
+                <p>4. What is the genetic material in cells called?</p>
+                <label><input type="radio" name="q4" value="a"> RNA</label><br>
+                <label><input type="radio" name="q4" value="b"> DNA</label><br>
+                <label><input type="radio" name="q4" value="c"> Proteins</label><br>
+                <label><input type="radio" name="q4" value="d"> Carbohydrates</label>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question" id="q5">
+                <p>5. What part of the plant absorbs water?</p>
+                <label><input type="radio" name="q5" value="a"> Leaves</label><br>
+                <label><input type="radio" name="q5" value="b"> Roots</label><br>
+                <label><input type="radio" name="q5" value="c"> Stem</label><br>
+                <label><input type="radio" name="q5" value="d"> Flowers</label>
+            </div>
+        </form>
+        <button id="submit-btn">Submit Quiz</button>
+        <p id="score-display"></p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 LearnHub. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="subQuizes.js"></script> <!-- Link your JS file -->
+</body>
+</html>
